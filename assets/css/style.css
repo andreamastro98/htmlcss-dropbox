@@ -77,6 +77,10 @@ nav a{
     justify-content: space-between;
 }
 
+.align-center{
+    text-align: center;
+}
+
 .blue{
     color: #005EFF;
 }
@@ -176,7 +180,6 @@ main h2{
 
 .i-top{
     padding: 10px;
-    margin-left: 118px;
 }
 
 .hr-100{
