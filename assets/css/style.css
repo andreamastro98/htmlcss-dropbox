@@ -22,8 +22,21 @@ nav{
     display: inline-block;
 }
 
-.padding-top-bottom{
+.display-block{
+    display: block;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.padding-nav{
     padding: 24px 12px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
 }
 
 .margin-logo{
@@ -35,11 +48,57 @@ nav{
     margin-top: 40px;
 }
 
+.margin-bottom{
+    margin-bottom: 120px;
+}
+
+.margin-right{
+    margin-right: 40px;
+}
+
+.margin-left{
+    margin-left: 16px;
+}
+
+.padding-bottom{
+    padding-bottom: 23px;
+}
+
+.margin-bottom-2{
+    margin-bottom: 55px;
+}
+
+.margin-bottom-top{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.blue{
+    color: #005EFF;
+}
+
 .btn-blue{
     padding: 10px 15px;
     background-color: #0061FF;
     color: white;
     text-decoration: none;
+}
+
+.btn-blue-2{
+    padding: 10px 26px;
+    background-color: #0061FF;
+    color: white;
+    text-decoration: none;
+}
+
+.grey-text{
+    color: grey;
+    display: block;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -56,6 +115,10 @@ nav{
     margin-bottom: 45px;
     padding-top: 83px;
     line-height: 1.4em;
+}
+
+.arrow{
+    font-size: 50px;
 }
 
 .box-2{
@@ -76,3 +139,89 @@ header section{
     position: relative;
     top: 80px;
 }
+
+.container-2{
+    width: 60%;
+    margin: auto;
+}
+
+main h2{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.table{
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.col-1{
+    flex-basis: calc(90% / 3);
+    border: 1px solid #D6D6D9;
+    margin-top: 70px;
+}
+
+.col-2{
+    flex-basis: calc(90% / 3);
+    border: 1px solid #D6D6D9;
+    margin-top: 70px;
+}
+
+.col-3{
+    flex-basis: calc(90% / 3);
+    border: 1px solid #D6D6D9;
+    margin-top: 70px;
+}
+
+.i-top{
+    padding: 10px;
+    margin-left: 118px;
+}
+
+.hr-100{
+    width: 100%;
+    background-color: #D6D6D9;
+}
+
+.container-3 hr{
+    background-color: #D6D6D9;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    width: 20%;
+
+}
+
+.container-3{
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 40px;
+}
+
+.container-3 h3,h3{
+    font-size: 25px;
+}
+
+.container-3 h4,h4{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.single-box{
+    border: 1px solid #D6D6D9;
+    padding-bottom: 40px;
+}
+
+.col-1-single{
+    width: 60%;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.col-2-single{
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
