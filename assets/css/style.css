@@ -23,7 +23,7 @@ nav{
 }
 
 .padding-top-bottom{
-    padding: 16px 12px;
+    padding: 24px 12px;
 }
 
 .margin-logo{
@@ -31,23 +31,48 @@ nav{
     margin-right: 10px;
 }
 
+.margin-top{
+    margin-top: 40px;
+}
+
 .btn-blue{
-    padding: 8px 15px;
+    padding: 10px 15px;
     background-color: #0061FF;
     color: white;
     text-decoration: none;
 }
 
-.cantainer{
+.container{
     width: 70%;
     margin: auto;
 }
 
 .box-1{
     width: 30%;
+    padding-right: 40px;
+}
+
+.first-p-header{
+    margin-bottom: 45px;
+    padding-top: 83px;
+    line-height: 1.4em;
 }
 
 .box-2{
     width: 70%;
 }
 
+header h1{
+    font-size: 84px;
+    padding-top: 50px;
+}
+
+header section{
+    background-color: #b4d0e7;
+}
+
+.box-2 img{
+    width: 100%;
+    position: relative;
+    top: 80px;
+}
