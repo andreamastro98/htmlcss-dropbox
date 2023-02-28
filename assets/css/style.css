@@ -339,6 +339,7 @@ main h2{
 .green{
     background-color: #a2d39b;
     fill: white;
+
 }
 
 .bordeaux{
@@ -403,6 +404,80 @@ main h2{
     margin-bottom: 50px;
 }
 
-.height-20{
-    height: 20%;
-} 
+
+#Dropbox-business{
+    display: flex;
+    background-color: #b4d0e7;
+    align-items: center;
+}
+
+#Dropbox-business h2{
+    color: #61082b;
+}
+
+.box-50{
+    width: 50%;
+}
+
+.box-50:first-child{
+    padding-left: 400px;
+}
+
+.box-50:last-child{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+#Dropbox-business h2{
+    margin-bottom: 150px;
+}
+
+.question-1, .question-2, .question-3{
+    display: flex;
+}
+
+.box-qst-1{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid black;
+}
+
+.box-qst-2{
+    width: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid black;
+}
+
+.box-qst-1 h3{
+    font-size: 20px;
+}
+
+#questions i{
+    padding-left: 170px;
+}
+
+.answer-1, .answer-2, .answer-3{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    display: none;
+}
+
+#questions:last-child{
+    border-bottom: 1px solid black;
+}
+
+.question-1:hover .answer-1{
+    display: block;
+}
+
+.question-2:hover .answer-2{
+    display: block;
+}
+
+.question-3:hover .answer-3{
+    display: block;
+}
+
