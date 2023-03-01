@@ -13,6 +13,10 @@
     display: flex;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 nav{
     justify-content: space-between;
     align-items: center;
@@ -168,6 +172,10 @@ nav a{
     background-color: #b4d0e7;
 }
 
+#jumbo i{
+    font-size: 55px;
+}
+
 .box-2 img{
     width: 100%;
     position: relative;
@@ -289,6 +297,18 @@ main h2{
     opacity: 0.6;
 }
 
+.btn-blue:hover{
+    opacity: 0.6;
+}
+
+.btn-blue-2:hover{
+    opacity: 0.6;
+}
+
+.bg-blue:hover{
+    opacity: 0.6;
+}
+
 #operazioni{
     display: flex;
     justify-content: space-between;
@@ -322,15 +342,20 @@ main h2{
     display: flex;
 }
 
+#squares .green{
+    border: 15px solid #d1e9cd;
+}
+
 .big-box{
     display: flex;
     width: calc(100vw / 3);
     flex-wrap: wrap;
+    
 }
 
 .mini-box{
     width: 50%;
-    height: 312.33px;
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -433,7 +458,8 @@ main h2{
 }
 
 .question-1, .question-2, .question-3{
-    display: flex;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 .box-qst-1{
@@ -481,3 +507,45 @@ main h2{
     display: block;
 }
 
+footer{
+    background-color: black;
+    padding-top: 100px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-box{
+    width: 18%;
+}
+
+#footer a{
+    display: block;
+    color: white;
+    margin-bottom: 1.4em;
+    text-decoration: none;
+}
+
+#footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+#hr-footer{
+    width: 100px;
+    border-color: white;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+footer i, span{
+    color: grey;
+    margin-bottom: 40px;
+}
+
+footer span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
